@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(228, 184, 193);
+    
+
+}
+.container{
+    cursor: pointer;
+    border-style: solid;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: darkgrey;
+    background-color: white;
+    border-color: white;
+    align-self: center;
+    
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: -5px -5px 12px 10px rgb(156, 135, 135),
+                   5px 5px 12px rgb(153, 136, 136);;
+    
+}
+.display{
+    margin-top: 30px;
+    height: 100px;
+    width: 200px;
+    margin-left: 45px;
+    margin-right: 30px;
+    background-color: white;
+    border-style: none;
+    border-spacing: 10px;
+    text-align: right;
+    text-decoration: black;
+    border-style: none;
+    
+    border-radius: 20px;
+    box-shadow: inset -6px -6px 13px rgb(245, 140, 140),
+                  inset 6px 6px 13px rgb(250, 146, 146);
+    font-size: 20px;              
+}
+::placeholder{
+    margin-right: 20px;
+    font-weight:bold
+}
+
+.display .Bigtextbox{
+    float: right;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+    width: 150px;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: end;
+    position: relative;
+    
+}
+.display .smallTextbox{
+   float: right;
+   height: 40px;
+   font-size: 30px;
+   font-weight: bold;
+   border-style: none;
+   width: 100px;
+   position: relative;
+   margin-right: 20px;
+   text-align: end;
+}
+.row{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: none;
+    font-weight:bold
+    
+    
+}
+/*styling a class within a class in html .parent class.child class:*/
+.row .operator{
+   width: 40px;
+   height: 30px;
+   background-color: rgb(243, 141, 141);
+   border-radius: 40px;
+   border-style: none;
+   text-emphasis-style: bold;
+   box-shadow: inset 6px 6px 13px rgb(243, 141, 141);
+   font-weight:bold;
+   box-shadow: 6px -6px 13px rgb(224, 216, 216),  6px 6px 13px rgb(222, 225, 230) ;
+                       
+}
+.row .number{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight:bold;
+    box-shadow: 6px -6px 13px rgb(224, 216, 216),  6px 6px 13px rgb(235, 236, 240);
+    
+}
+.row .operator:hover{
+    background-color:rgb(247, 213, 213);
+}
+.row .number:hover{
+    background-color: rgb(14, 13, 13);
+    color: white;
+}
